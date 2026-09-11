@@ -1,5 +1,5 @@
 import chess.pgn
-from src.config import DATA_RAW
+from src.config import DATA_RAW, DATA_PROCESSED
 
 # --- tunable thresholds, keep as constants so they're easy to justify/change later ---
 BLUNDER_THRESHOLD_CP = 200      # eval swing >= this counts as a blunder
